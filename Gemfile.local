@@ -1,8 +1,7 @@
-# To start using Gemfile.local just run:
-# bundle --gemfile Gemfile.local
-
+# Include the regular Gemfile
 eval File.read('Gemfile')
 
+# Add any gems and groups that you don't want to keep local
 group :development do
 	gem "pry"
 end
