@@ -9,3 +9,4 @@ To start using Gemfile.local copy the file into project root and run:
 Add the following to your .gitignore:
 
 	/Gemfile.local
+	/Gemfile.local.lock
