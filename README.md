@@ -2,7 +2,7 @@ A local Gemfile where you can add gems that you don't want to add to the reposit
 
 # Install
 
-To start using Gemfile.local just run:
+To start using Gemfile.local copy the file into project root and run:
 
 	bundle --gemfile Gemfile.local
 
