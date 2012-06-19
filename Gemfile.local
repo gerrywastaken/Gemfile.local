@@ -3,5 +3,5 @@ eval File.read('Gemfile')
 
 # Add any gems and groups that you don't want to keep local
 group :development do
-	gem "pry"
+	gem 'pry'
 end
