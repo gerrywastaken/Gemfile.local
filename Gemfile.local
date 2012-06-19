@@ -1,0 +1,8 @@
+# To start using Gemfile.local just run:
+# bundle --gemfile Gemfile.local
+
+eval File.read('Gemfile')
+
+group :development do
+	gem "pry"
+end
