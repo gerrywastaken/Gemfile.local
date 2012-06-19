@@ -1,4 +1,4 @@
-A local Gemfile where you can add Gems that you don't want to add to the repository
+A local Gemfile where you can add gems that you don't want to add to the repository
 
 # Install
 
