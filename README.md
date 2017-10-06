@@ -7,6 +7,10 @@ Copy Gemfile.local into project root and add the following to your .gitignore:
 	/Gemfile.local
 	/Gemfile.local.lock
 
+Also, you might want to duplicate your project's `Gemfile.lock` into `Gemfile.local.lock` to make sure gems are locked under the same versions. In your terminal run:
+
+	cp Gemfile.lock Gemfile.local.lock
+
 To use Gemfile.local run:
 
 	bundle --gemfile Gemfile.local
